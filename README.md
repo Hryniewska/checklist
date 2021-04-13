@@ -1,0 +1,1 @@
+# Checklist-for-responsible-COVID-19-detection
