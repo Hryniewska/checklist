@@ -2,7 +2,7 @@ import glob
 import sys
 import os
 import json
-from json2html import *
+import pandas as pd
 from pathlib import Path
 
 def check_jsons(path):
@@ -11,29 +11,25 @@ def check_jsons(path):
         print(f)
         with open(f, "rb") as infile:
             result.append(json.load(infile))
-    table = json2html.convert(json = result)
-
-    return table
+    print(result[0])
+    table = pd.DataFrame(result[0])
+    return table.to_html()
 
 table = []
 path = os.path.join('papers', "*.json")
-table.append(check_jsons(path)[8:-10])
+table.append(check_jsons(path))
 
 path = os.path.join('datasets', "*.json")
 table.append('\n\n')
-table.append(check_jsons(path)[16:-20])
+table.append(check_jsons(path))
 
 
-
-print(table)
-print('\n\n')
 
 readme_file = []
 with open('README.md', 'r') as readme:
     readme = readme.readlines()
     save = True
     for line in readme:
-        print(line)
         if line == '<!--START_SECTION:data-section-->\n':
             save = False
             readme_file.append('<!--START_SECTION:data-section-->\n')
@@ -47,8 +43,7 @@ with open('README.md', 'r') as readme:
             readme_file.append('\n<!--END_SECTION:data-section-->\n')
         elif save == True:
             readme_file.append(line)
-print('\n\n')
-print(readme_file)
+print('\n')
 
 #with open('README.md','w') as f:
 #   f.write(''.join(readme_file))
