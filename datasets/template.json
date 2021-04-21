@@ -1,0 +1,13 @@
+[
+    {
+        "Data resource / Checklist": "template",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "",
+        "[R] Are the low quality images rejected?": "",
+        "[D] Is the dataset balanced in terms of sex and age?": "",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "",
+        "[R] Are images correctly categorized in relation to class of pathology?": "",
+        "[D] Are AP/PA projections described for every X -ray image?": ""
+    }
+]

@@ -12,7 +12,7 @@ def check_jsons(path):
         with open(f, "rb") as infile:
             result.append(json.load(infile))
     print(result[0])
-    table = pd.DataFrame(result[0])
+    table = pd.DataFrame(result[0])#.transpose()
     return table.to_html()
 
 table = []
@@ -35,9 +35,6 @@ with open('README.md', 'r') as readme:
             readme_file.append('<!--START_SECTION:data-section-->\n')
             for item in table:
             	readme_file.append(item)
-            #print('\n\n')
-            #print(table)
-            #print('\n\n')
         elif line == '<!--END_SECTION:data-section-->\n':
             save = True
             readme_file.append('\n<!--END_SECTION:data-section-->\n')

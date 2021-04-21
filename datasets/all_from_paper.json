@@ -1,0 +1,167 @@
+﻿[
+    {
+        "Data resource / Checklist": "2)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "Y?",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "Y?",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "not all",
+        "[R] Are images correctly categorized in relation to class of pathology?": "N?",
+        "[D] Are AP/PA projections described for every X -ray image?": "N"
+    },
+    {
+        "Data resource / Checklist": "3)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N?",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "?",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "N",
+        "[R] Are images correctly categorized in relation to class of pathology?": "N?",
+        "[D] Are AP/PA projections described for every X -ray image?": "Y"
+    },
+    {
+        "Data resource / Checklist": "4)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "?",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "N",
+        "[R] Are images correctly categorized in relation to class of pathology?": "Y?",
+        "[D] Are AP/PA projections described for every X -ray image?": "N"
+    },
+    {
+        "Data resource / Checklist": "5)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N?",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "Y?",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "N (PA + lateral, CT)",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "Y?",
+        "[R] Are images correctly categorized in relation to class of pathology?": "N",
+        "[D] Are AP/PA projections described for every X -ray image?": "Y"
+    },
+    {
+        "Data resource / Checklist": "6)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N?",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "Y?",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "Y",
+        "[R] Are images correctly categorized in relation to class of pathology?": "N",
+        "[D] Are AP/PA projections described for every X -ray image?": "Y"
+    },
+    {
+        "Data resource / Checklist": "7)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "Y",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "Y",
+        "[R] Are images correctly categorized in relation to class of pathology?": "not all",
+        "[D] Are AP/PA projections described for every X -ray image?": "Y"
+    },
+    {
+        "Data resource / Checklist": "8)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N?",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "Y",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "Y",
+        "[R] Are images correctly categorized in relation to class of pathology?": "N",
+        "[D] Are AP/PA projections described for every X -ray image?": "Y"
+    },
+    {
+        "Data resource / Checklist": "9)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
+        "[R] Are the low quality images rejected?": "",
+        "[D] Is the dataset balanced in terms of sex and age?": "?",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "N",
+        "[R] Are images correctly categorized in relation to class of pathology?": "",
+        "[D] Are AP/PA projections described for every X -ray image?": "N"
+    },
+    {
+        "Data resource / Checklist": "10)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N?",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "N",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "Y",
+        "[R] Are images correctly categorized in relation to class of pathology?": "Y?",
+        "[D] Are AP/PA projections described for every X -ray image?": "Y"
+    },
+    {
+        "Data resource / Checklist": "11)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
+        "[R] Are the low quality images rejected?": "n/a",
+        "[D] Is the dataset balanced in terms of sex and age?": "N",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "N",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "not all",
+        "[R] Are images correctly categorized in relation to class of pathology?": "N?",
+        "[D] Are AP/PA projections described for every X -ray image?": "n/a"
+    },
+    {
+        "Data resource / Checklist": "12)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
+        "[R] Are the low quality images rejected?": "Y",
+        "[D] Is the dataset balanced in terms of sex and age?": "?",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "N",
+        "[R] Are images correctly categorized in relation to class of pathology?": "Y",
+        "[D] Are AP/PA projections described for every X -ray image?": "N"
+    },
+    {
+        "Data resource / Checklist": "13)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "?",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "N",
+        "[R] Are images correctly categorized in relation to class of pathology?": "N",
+        "[D] Are AP/PA projections described for every X -ray image?": "N"
+    },
+    {
+        "Data resource / Checklist": "14)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "Y",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "?",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "N (PA + lateral)",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "N",
+        "[R] Are images correctly categorized in relation to class of pathology?": "Y",
+        "[D] Are AP/PA projections described for every X -ray image?": "Y"
+    },
+    {
+        "Data resource / Checklist": "17)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N?",
+        "[R] Are the low quality images rejected?": "Y?",
+        "[D] Is the dataset balanced in terms of sex and age?": "Y?",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "Y",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "N",
+        "[R] Are images correctly categorized in relation to class of pathology?": "N?",
+        "[D] Are AP/PA projections described for every X -ray image?": "Y"
+    },
+    {
+        "Data resource / Checklist": "23)",
+        "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
+        "[R] Are the low quality images rejected?": "N",
+        "[D] Is the dataset balanced in terms of sex and age?": "",
+        "[R] Does the dataset contain one type of images (CT or X -ray or the same projection)?": "N (include CT scanogram)",
+        "[R] Are the lung structures visible (“lung” window) on CT images?": "n/a",
+        "[D] Are images of children and of adults labelled as such within the dataset?": "N",
+        "[R] Are images correctly categorized in relation to class of pathology?": "N",
+        "[D] Are AP/PA projections described for every X -ray image?": "N"
+    }
+]
