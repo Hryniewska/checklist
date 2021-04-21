@@ -30,6 +30,5 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         # use account 'github-actions[bot]' to set the git config
         
-        git add -A
-        git commit -m "commit message"
+        git commit -m "commit message" -a || true
         git push
