@@ -1,0 +1,19 @@
+[
+    {
+        "Study": "template",
+        "[D] Is the data preprocessing described?": "",
+        "[D] Are artifacts (such as captions) removed?": "",
+        "[D] Are the lungs fully present after transformations?": "",
+        "[R] Are lung structures visible after brightness or contrast transformations?": "",
+        "[D] Are only sensible transformations applied?": "",
+        "[D] Is the transfer learning procedure described?": "",
+        "[D] Is the applied transfer learning appropriate for this case?": "",
+        "[D] Are at least a few metrics used?": "",
+        "[D] Is the model validated on a different database than the one used for training?": "",
+        "[R] Are other structures (i.e., bowel loops) misinterpreted as lungs in segmentation?": "",
+        "[R] All the areas marked as highly explanatory are located inside the lungs?": "",
+        "[R] Are artifacts misidentified as part of the explanations?": "",
+        "[R] Are areas indicated as explanations consistent with opinions of radiologists?": "",
+        "[R] Do explanations accurately indicate lesions?": ""
+    }
+]

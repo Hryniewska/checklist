@@ -1,5 +1,12 @@
 # Checklist for responsible deep learning modeling of medical images based on COVID-19 detection studies
 
+This repository is created for initiate the process of standards establishment for creating reliable AI solutions.
+
+Everyone can join us to build a community focusing on responsible AI for medical applications.
+
+
+In the repository, we created the possibility to add new paper and datasets. In pull request the person who would like to add a new item should attach a JSON file. You can find specific JSON’s template  in folders: datasets_checklist, papers_checklist, datasets_information. In JSON file, please tell exactly which points from the checklist are fulfilled. Please justify your statement by putting comments on it in pull request description. Your submitted pull request will be veryfied by community members. They can ask for corrections or clarifications. All discussions will be visible to the public.
+
 
 <!-- DO NOT EDIT THIS SECTION -->
 <!--START_SECTION:data-section-->
@@ -452,3 +459,23 @@
   </tbody>
 </table>
 <!--END_SECTION:data-section-->
+
+
+Preprint for this work is avaliable at
+<https://arxiv.org/abs/2012.08333> .
+
+If you find our work useful, can cite our paper using:
+
+```
+    @article{hryniewska2020review,
+          title={Do not repeat these mistakes - a critical appraisal of applications of explainable artificial intelligence for image based COVID-19 detection},
+          author={Weronika Hryniewska and Przemysław Bombiński and Patryk Szatkowski and Paulina Tomaszewska and Artur Przelaskowski and Przemysław Biecek},
+          year={2020},
+          journal={arXiv},
+          eprint={2012.08333},
+          archivePrefix={arXiv},
+          primaryClass={eess.IV},
+          URL={https://arxiv.org/abs/2012.08333}
+    }
+```
+

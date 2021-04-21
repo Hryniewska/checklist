@@ -137,7 +137,7 @@
         "Prepared for scientific experiments": "The Lung Image Database consists of diagnostic and lung cancer screening thoracic CT scans with marked-up annotated lesions (XML); it includes three categories (\"nodule > or =3 mm,\" \"nodule <3 mm,\" and \"non-nodule > or =3 mm\");"
     },
     {
-        "Institution": "{University of Brescia",
+        "Institution": "University of Brescia",
         "Link to dataset": "brixia.github.io/#dataset",
         "Dynamic range of images": "full bits, 4,707 cases",
         "Data processing": "full DICOM",
