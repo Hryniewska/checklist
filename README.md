@@ -15,26 +15,257 @@ In the repository, we created the possibility to add new paper and datasets. In 
   <thead>
     <tr style="text-align: right;">
       <th></th>
-      <th>bibliographyItem</th>
-      <th>doi</th>
-      <th>lowQuality</th>
-      <th>transferLearning</th>
+      <th>Study</th>
+      <th>[D] Is the data preprocessing described?</th>
+      <th>[D] Are artifacts (such as captions) removed?</th>
+      <th>[D] Are the lungs fully present after transformations?</th>
+      <th>[R] Are lung structures visible after brightness or contrast transformations?</th>
+      <th>[D] Are only sensible transformations applied?</th>
+      <th>[D] Is the transfer learning procedure described?</th>
+      <th>[D] Is the applied transfer learning appropriate for this case?</th>
+      <th>[D] Are at least a few metrics used?</th>
+      <th>[D] Is the model validated on a different database than the one used for training?</th>
+      <th>[R] Are other structures (i.e., bowel loops) misinterpreted as lungs in segmentation?</th>
+      <th>[R] All the areas marked as highly explanatory are located inside the lungs?</th>
+      <th>[R] Are artifacts misidentified as part of the explanations?</th>
+      <th>[R] Are areas indicated as explanations consistent with opinions of radiologists?</th>
+      <th>[R] Do explanations accurately indicate lesions?</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <th>0</th>
-      <td>test1</td>
-      <td>123</td>
-      <td>yes</td>
-      <td>0</td>
+      <td>template</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <th>1</th>
-      <td>test2</td>
-      <td>456</td>
-      <td>no</td>
-      <td>1</td>
+      <td>L. Brunese, F. Mercaldo, A. Reginelli, A. Santone, Explainable Deep Learning for Pulmonary Disease and CoronavirusCOVID-19 Detection from X-rays, Computer Methods and Programs in Biomedicine 196 (2020) 105608.doi:10.1016/j.cmpb.2020.105608.</td>
+      <td>Y</td>
+      <td>?</td>
+      <td>?</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y?</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Z. Han, B. Wei, Y. Hong, T. Li, J. Cong, X. Zhu, H. Wei, W. Zhang, Accurate Screening of COVID-19 Using Attention-Based  Deep  3D  Multiple  Instance  Learning,  IEEE  Transactions  on  Medical  Imaging  39  (8)  (2020)  2584–2594.doi:10.1109/TMI.2020.2996256.</td>
+      <td>N</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>M. R. Karim, T. D ̈ohmen, M. Cochez, O. Beyan, D. Rebholz-Schuhmann, S. Decker, DeepCOVIDExplainer:  ExplainableCOVID-19 Diagnosis from Chest X-ray Images,  in:  IEEE International Conference on Bioinformatics and Biomedicine(BIBM), 2020, pp. 1034–1037.doi:10.1109/BIBM49941.2020.9313304.</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>?</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td></td>
+      <td>n/a</td>
+      <td>Y?</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>E. Matsuyama, A Deep Learning Interpretable Model for Novel Coronavirus Disease (COVID-19) Screening with ChestCT Images, Journal of Biomedical Science and Engineering 13 (7) (2020) 140–152.</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>Y?</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>N</td>
+      <td>n/a</td>
+      <td>n/a</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Y. Oh, S. Park, J. C. Ye, Deep Learning COVID-19 Features on CXR using Limited Training Data Sets, IEEE Transactionson Medical Imaging 0062 (c) (2020) 1–1.doi:10.1109/tmi.2020.2993291.</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y?</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>Y?</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>X. Ouyang, J. Huo, L. Xia, F. Shan, J. Liu, Z. Mo, F. Yan, Z. Ding, Q. Yang, B. Song, F. Shi, H. Yuan, Y. Wei, X. Cao,670Y.  Gao,  D.  Wu,  Q.  Wang,  D.  Shen,  Dual-Sampling  Attention  Network  for  Diagnosis  of  COVID-19  from  CommunityAcquired Pneumonia, IEEE Transactions on Medical Imaging 39 (XX) (2020) 1–1.arXiv:2005.02690,doi:10.1109/tmi.2020.2995508.</td>
+      <td>Y</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>Y?</td>
+      <td>Y</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>Y</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>T. Ozturk, M. Talo, E. A. Yildirim, U. B. Baloglu, O. Yildirim, U. Rajendra Acharya, Automated detection of COVID-19cases  using  deep  neural  networks  with  X-ray  images,  Computers  in  Biology  and  Medicine  121  (April)  (2020)  103792.675doi:10.1016/j.compbiomed.2020.103792.</td>
+      <td>Y</td>
+      <td>?</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>n/a</td>
+      <td></td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>S. Tabik, A. Gómez-Ríos, J. L. Martín-Rodríguez, I. Sevillano-García, M. Rey-Area, D. Charte, E. Guirado, J. L. Suárez, J. Luengo, M. A. Valero-González, P. García-Villanova, E. Olmedo-Sánchez, F. Herrera, COVIDGR Dataset and COVID-SDNet Methodology for Predicting COVID-19 Based on Chest X-Ray Images, IEEE Journal of Biomedical and HealthInformatics 24 (12) (2020) 3595–3605.doi:10.1109/JBHI.2020.3037127.680</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>?</td>
+      <td>?</td>
+      <td>?</td>
+      <td>Y</td>
+      <td>Y?</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>N</td>
+      <td>Y?</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>N. Tsiknakis, E. Trivizakis, E. Vassalou, G. Papadakis, D. Spandidos, A. Tsatsakis, J. Sánchez-García, R. López-González,N. Papanikolaou,  A. Karantanas,  K. Marias,  Interpretable artificial intelligence framework for COVID-19 screening onchest X-rays, Experimental and Therapeutic Medicine (2020) 727–735doi:10.3892/etm.2020.8797.</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>?</td>
+      <td>n/a</td>
+      <td>?</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>F.  Ucar,  D.  Korkmaz,  COVIDiagnosis-Net:   Deep  Bayes-SqueezeNet  based  diagnosis  of  the  coronavirus  disease  2019(COVID-19) from X-ray images, Medical Hypotheses 140 (April) (2020) 109761.doi:10.1016/j.mehy.2020.109761.685</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>?</td>
+      <td>?</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>n/a</td>
+      <td>N</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>Y?</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>L. Wang, Z. Q. Lin, A. Wong, COVID-Net: a tailored deep convolutional neural network design for detection of COVID-19cases from chest X-ray images, Scientific Reports 10 (1) (2020) 19549.doi:10.1038/s41598-020-76550-z.</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>?</td>
+      <td>?</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>n/a</td>
+      <td>Y</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>N</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Y. H. Wu, S. H. Gao, J. Mei, J. Xu, D. P. Fan, R. G. Zhang, M. M. Cheng, JCS: An Explainable COVID-19 DiagnosisSystem by Joint Classification and Segmentation, IEEE Trans Image Process 30 (2021) 3113–3126.</td>
+      <td>Y</td>
+      <td>n/a</td>
+      <td>N?</td>
+      <td>n/a</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>N</td>
+      <td>Y</td>
+      <td>Y</td>
+      <td>n/a</td>
+      <td>n/a</td>
+      <td>Y</td>
     </tr>
   </tbody>
 </table>
@@ -53,6 +284,10 @@ In the repository, we created the possibility to add new paper and datasets. In 
       <th>[D] Are images of children and of adults labelled as such within the dataset?</th>
       <th>[R] Are images correctly categorized in relation to class of pathology?</th>
       <th>[D] Are AP/PA projections described for every X -ray image?</th>
+      <th>Institution</th>
+      <th>Link to dataset</th>
+      <th>[R] Does the dataset contain one type of images (CT or X-ray or the same projection)?</th>
+      <th>[D] Are AP/PA projections described for every X-ray image?</th>
     </tr>
   </thead>
   <tbody>
@@ -67,184 +302,248 @@ In the repository, we created the possibility to add new paper and datasets. In 
       <td></td>
       <td></td>
       <td></td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
     </tr>
     <tr>
       <th>1</th>
-      <td>2)</td>
+      <td>NaN</td>
       <td>Y?</td>
       <td>N</td>
       <td>Y?</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>not all</td>
-      <td>N?</td>
+      <td>N</td>
+      <td>NaN</td>
+      <td>University of Waterloo</td>
+      <td>github.com/agchung/Figure1-COVID-chestxray-dataset</td>
+      <td>Y</td>
       <td>N</td>
     </tr>
     <tr>
       <th>2</th>
-      <td>3)</td>
+      <td>NaN</td>
       <td>N?</td>
       <td>N</td>
       <td>?</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>N</td>
-      <td>N?</td>
+      <td>N</td>
+      <td>NaN</td>
+      <td>University of Waterloo</td>
+      <td>github.com/agchung/Actualmed-COVID-chestxray-dataset</td>
+      <td>Y</td>
       <td>Y</td>
     </tr>
     <tr>
       <th>3</th>
-      <td>4)</td>
+      <td>NaN</td>
       <td>N</td>
       <td>N</td>
       <td>?</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>N</td>
-      <td>Y?</td>
+      <td>Y</td>
+      <td>NaN</td>
+      <td>Qatar &amp; Bangladesh Universities</td>
+      <td>kaggle.com/tawsifurrahman/covid19-radiography-database Chowdhury2020</td>
+      <td>Y</td>
       <td>N</td>
     </tr>
     <tr>
       <th>4</th>
-      <td>5)</td>
+      <td>NaN</td>
       <td>N?</td>
       <td>N</td>
       <td>Y?</td>
-      <td>N (PA + lateral, CT)</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>Y?</td>
+      <td>N</td>
+      <td>NaN</td>
+      <td>University of Montreal</td>
+      <td>github.com/ieee8023/covid-chestxray-dataset cohen2020covidProspective</td>
       <td>N</td>
       <td>Y</td>
     </tr>
     <tr>
       <th>5</th>
-      <td>6)</td>
+      <td>NaN</td>
       <td>N?</td>
       <td>N</td>
       <td>Y?</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>Y</td>
       <td>N</td>
+      <td>NaN</td>
+      <td>National Institutes of Health</td>
+      <td>kaggle.com/c/rsna-pneumonia-detection-challenge Wang2017</td>
+      <td>Y</td>
       <td>Y</td>
     </tr>
     <tr>
       <th>6</th>
-      <td>7)</td>
+      <td>NaN</td>
       <td>N</td>
       <td>N</td>
       <td>Y</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>Y</td>
-      <td>not all</td>
+      <td>N</td>
+      <td>NaN</td>
+      <td>National Institutes of Health</td>
+      <td>nihcc.app.box.com/v/ChestXray-NIHCC Wang2017</td>
+      <td>Y</td>
       <td>Y</td>
     </tr>
     <tr>
       <th>7</th>
-      <td>8)</td>
+      <td>NaN</td>
       <td>N?</td>
       <td>N</td>
       <td>Y</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>Y</td>
+      <td>N</td>
+      <td>NaN</td>
+      <td>National Institutes of Health</td>
+      <td>kaggle.com/nih-chest-xrays/sample Wang2017</td>
       <td>N</td>
       <td>Y</td>
     </tr>
     <tr>
       <th>8</th>
-      <td>9)</td>
+      <td>NaN</td>
       <td>N</td>
-      <td></td>
+      <td>N</td>
       <td>?</td>
-      <td></td>
-      <td></td>
+      <td>NaN</td>
+      <td>n/a</td>
       <td>N</td>
-      <td></td>
+      <td>N</td>
+      <td>NaN</td>
+      <td>University of Montreal</td>
+      <td>kaggle.com/praveengovi/coronahack-chest-xraydataset cohen2020covidProspective</td>
+      <td>N</td>
       <td>N</td>
     </tr>
     <tr>
       <th>9</th>
-      <td>10)</td>
+      <td>NaN</td>
       <td>N?</td>
       <td>N</td>
       <td>N</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>Y</td>
-      <td>Y?</td>
+      <td>Y</td>
+      <td>NaN</td>
+      <td>University of California San Diego</td>
+      <td>kaggle.com/paultimothymooney/chest-xray-pneumonia</td>
+      <td>Y</td>
       <td>Y</td>
     </tr>
     <tr>
       <th>10</th>
-      <td>11)</td>
+      <td>NaN</td>
       <td>N</td>
       <td>n/a</td>
       <td>N</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>N</td>
       <td>not all</td>
-      <td>N?</td>
+      <td>N</td>
+      <td>NaN</td>
+      <td>University of California San Diego</td>
+      <td>github.com/UCSD-AI4H/COVID-CT Kermany2018LabeledOC</td>
+      <td>Y</td>
       <td>n/a</td>
     </tr>
     <tr>
       <th>11</th>
-      <td>12)</td>
+      <td>NaN</td>
       <td>N</td>
       <td>Y</td>
       <td>?</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>N</td>
+      <td>Y</td>
+      <td>NaN</td>
+      <td>University of California San Diego</td>
+      <td>data.mendeley.com/datasets/rscbjbr9sj/2 Chowdhury2020</td>
       <td>Y</td>
       <td>N</td>
     </tr>
     <tr>
       <th>12</th>
-      <td>13)</td>
+      <td>NaN</td>
       <td>N</td>
       <td>N</td>
       <td>?</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>N</td>
       <td>N</td>
+      <td>NaN</td>
+      <td>Elazig in Turkey</td>
+      <td>github.com/muhammedtalo/COVID-19 b21</td>
+      <td>Y</td>
       <td>N</td>
     </tr>
     <tr>
       <th>13</th>
-      <td>14)</td>
+      <td>NaN</td>
       <td>Y</td>
       <td>N</td>
       <td>?</td>
-      <td>N (PA + lateral)</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>N</td>
       <td>Y</td>
+      <td>NaN</td>
+      <td>National Library of Medicine</td>
+      <td>openi.nlm.nih.gov/gridquery?it=xg&amp;coll=cxr&amp;m=1&amp;n=100</td>
+      <td>N</td>
       <td>Y</td>
     </tr>
     <tr>
       <th>14</th>
-      <td>17)</td>
+      <td>NaN</td>
       <td>N?</td>
       <td>Y?</td>
       <td>Y?</td>
-      <td>Y</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>N</td>
       <td>N?</td>
+      <td>NaN</td>
+      <td>Hospital Universitario San Cecilio</td>
+      <td>github.com/ari-dasci/OD-covidgr b26</td>
+      <td>Y</td>
       <td>Y</td>
     </tr>
     <tr>
       <th>15</th>
-      <td>23)</td>
+      <td>NaN</td>
       <td>N</td>
       <td>N</td>
-      <td></td>
-      <td>N (include CT scanogram)</td>
+      <td>?</td>
+      <td>NaN</td>
       <td>n/a</td>
       <td>N</td>
+      <td>N</td>
+      <td>NaN</td>
+      <td>generated using data augmentation</td>
+      <td>kaggle.com/nabeelsajid917/covid-19-x-ray-10000-images</td>
       <td>N</td>
       <td>N</td>
     </tr>
@@ -434,7 +733,7 @@ In the repository, we created the possibility to add new paper and datasets. In 
     </tr>
     <tr>
       <th>21</th>
-      <td>{University of Brescia</td>
+      <td>University of Brescia</td>
       <td>brixia.github.io/#dataset</td>
       <td>full bits, 4,707 cases</td>
       <td>full DICOM</td>
