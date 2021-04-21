@@ -11,8 +11,8 @@ def check_jsons(path):
         print(f)
         with open(f, "rb") as infile:
             result.append(json.load(infile))
-    print(result[0])
-    table = pd.DataFrame(result[0])#.transpose()
+    print(result)
+    table = pd.DataFrame(val for sublist in result for val in sublist)#.transpose()
     return table.to_html()
 
 table = []
