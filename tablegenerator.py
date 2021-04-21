@@ -34,7 +34,7 @@ with open('README.md', 'r') as readme:
             #print('\n\n')
             #print(table)
             #print('\n\n')
-        elif line == '<!--END_SECTION:data-section-->':
+        elif line == '<!--END_SECTION:data-section-->\n':
             save = True
             readme_file.append('\n<!--END_SECTION:data-section-->\n')
         elif save == True:
