@@ -23,7 +23,7 @@ jobs:
       run: |
         pip install json2html
         pip install pathlib
-        python tablegenerator.py --file=jsons/
+        python tablegenerator.py
     - name: Commit and Push
       run: |
         git config --global user.name "github-actions[bot]"
