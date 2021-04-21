@@ -5,19 +5,26 @@ import json
 from json2html import *
 from pathlib import Path
 
-argumentList = sys.argv[1:]
+def check_jsons(path):
+    result = []
+    for f in glob.glob(path):
+        print(f)
+        with open(f, "rb") as infile:
+            result.append(json.load(infile))
+    table = json2html.convert(json = result)
 
-print(argumentList[0][7:])
+    return table
 
-path = os.path.join(argumentList[0][7:], "*.json")
+table = []
+path = os.path.join('papers', "*.json")
+table.append(check_jsons(path)[8:-10])
 
-result = []
-for f in glob.glob(path):
-    print(f)
-    with open(f, "rb") as infile:
-        result.append(json.load(infile))
+path = os.path.join('datasets', "*.json")
+table.append('\n\n')
+table.append(check_jsons(path)[16:-20])
 
-table = json2html.convert(json = result)
+
+
 print(table)
 print('\n\n')
 
@@ -30,7 +37,8 @@ with open('README.md', 'r') as readme:
         if line == '<!--START_SECTION:data-section-->\n':
             save = False
             readme_file.append('<!--START_SECTION:data-section-->\n')
-            readme_file.append(table[8:-10])
+            for item in table:
+            	readme_file.append(item)
             #print('\n\n')
             #print(table)
             #print('\n\n')
@@ -42,8 +50,8 @@ with open('README.md', 'r') as readme:
 print('\n\n')
 print(readme_file)
 
-#with open('f1.md','w') as f:
-#  f.write(''.join(readme_file))
+#with open('README.md','w') as f:
+#   f.write(''.join(readme_file))
 
 p = Path('README.md')
-p.write_text(''.join(readme_file))
+p.write_text(''.join(str(v) for v in readme_file))
