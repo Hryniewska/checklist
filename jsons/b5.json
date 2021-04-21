@@ -1,0 +1,14 @@
+[
+  {
+    "bibliographyItem": "test1",
+    "doi": "123",
+    "lowQuality": "yes",
+    "transferLearning": 0
+  },
+  {
+    "bibliographyItem": "test2",
+    "doi": "456",
+    "lowQuality": "no",
+    "transferLearning": 1
+  }
+]
