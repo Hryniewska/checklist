@@ -16,11 +16,19 @@ def check_jsons(path):
     return table.to_html()
 
 table = []
-path = os.path.join('papers', "*.json")
+
+table.append('## Summary showing which points from the checklist are fulfilled by studies.\n')
+path = os.path.join('papers_checklist', "*.json")
 table.append(check_jsons(path))
 
-path = os.path.join('datasets', "*.json")
-table.append('\n\n')
+table.append('\n\n## Summary showing which points from the checklist are fulfilled by data resources.')
+path = os.path.join('datasets_checklist', "*.json")
+table.append('\n')
+table.append(check_jsons(path))
+
+table.append('\n\n## This table presents the data sources. The JPEG quality factor (QF) for most images has been set to 75, other cases are indicated.')
+path = os.path.join('datasets_information', "*.json")
+table.append('\n')
 table.append(check_jsons(path))
 
 
