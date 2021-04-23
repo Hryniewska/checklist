@@ -1,11 +1,23 @@
 # Checklist for responsible deep learning modeling of medical images based on COVID-19 detection studies
 
+## Aim of this repository
 This repository is created for initiate the process of standards establishment for creating reliable AI solutions.
 
 Everyone can join us to build a community focusing on responsible AI for medical applications.
+<br/>
 
-
+## How to add paper / data resource?
 In the repository, we created the possibility to add new paper and datasets. In pull request the person who would like to add a new item should attach a JSON file. You can find specific JSON’s template  in folders: datasets_checklist, papers_checklist, datasets_information. In JSON file, please tell exactly which points from the checklist are fulfilled. Please justify your statement by putting comments on it in pull request description. Your submitted pull request will be veryfied by community members. They can ask for corrections or clarifications. All discussions will be visible to the public.
+<br/>
+
+## Explanation of symbols
+Following denotements are applied for the tables:
+<ul>
+Y - yes (if an answer is probable 'Y?’)<br/>
+N - no (if an answer is probable ‘N?’)<br/>
+? - no information provided<br/>
+n/a - issue does not apply to a particular publication / data resource<br/>
+</ul>
 
 
 <!-- DO NOT EDIT THIS SECTION -->
