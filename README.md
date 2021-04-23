@@ -1,7 +1,7 @@
 # Checklist for responsible deep learning modeling of medical images based on COVID-19 detection studies
 
 ## Aim of this repository
-This repository is created for initiate the process of standards establishment for creating reliable AI solutions.
+This repository is created to initiate the process of standards establishment for creating reliable AI solutions.
 
 Everyone can join us to build a community focusing on responsible AI for medical applications.
 <br/>
