@@ -25,7 +25,7 @@
     },
     {
         "Institution": "Qatar & Bangladesh Universities",
-        "Link to dataset": "kaggle.com/tawsifurrahman/covid19-radiography-database Chowdhury2020",
+        "Link to dataset": "kaggle.com/tawsifurrahman/covid19-radiography-database",
         "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
         "[R] Are the low quality images rejected?": "N",
         "[D] Is the dataset balanced in terms of sex and age?": "?",
@@ -37,7 +37,7 @@
     },
     {
         "Institution": "University of Montreal",
-        "Link to dataset": "github.com/ieee8023/covid-chestxray-dataset cohen2020covidProspective",
+        "Link to dataset": "github.com/ieee8023/covid-chestxray-dataset",
         "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N?",
         "[R] Are the low quality images rejected?": "N",
         "[D] Is the dataset balanced in terms of sex and age?": "Y?",
@@ -49,7 +49,7 @@
     },
     {
         "Institution": "National Institutes of Health",
-        "Link to dataset": "kaggle.com/c/rsna-pneumonia-detection-challenge Wang2017",
+        "Link to dataset": "kaggle.com/c/rsna-pneumonia-detection-challenge",
         "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N?",
         "[R] Are the low quality images rejected?": "N",
         "[D] Is the dataset balanced in terms of sex and age?": "Y?",
@@ -61,7 +61,7 @@
     },
     {
         "Institution": "National Institutes of Health",
-        "Link to dataset": "nihcc.app.box.com/v/ChestXray-NIHCC Wang2017",
+        "Link to dataset": "nihcc.app.box.com/v/ChestXray-NIHCC",
         "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
         "[R] Are the low quality images rejected?": "N",
         "[D] Is the dataset balanced in terms of sex and age?": "Y",
@@ -73,7 +73,7 @@
     },
     {
         "Institution": "National Institutes of Health",
-        "Link to dataset": "kaggle.com/nih-chest-xrays/sample Wang2017",
+        "Link to dataset": "kaggle.com/nih-chest-xrays/sample",
         "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N?",
         "[R] Are the low quality images rejected?": "N",
         "[D] Is the dataset balanced in terms of sex and age?": "Y",
@@ -85,7 +85,7 @@
     },
     {
         "Institution": "University of Montreal",
-        "Link to dataset": "kaggle.com/praveengovi/coronahack-chest-xraydataset cohen2020covidProspective",
+        "Link to dataset": "kaggle.com/praveengovi/coronahack-chest-xraydataset",
         "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
         "[R] Are the low quality images rejected?": "N",
         "[D] Is the dataset balanced in terms of sex and age?": "?",
@@ -109,7 +109,7 @@
     },
     {
         "Institution": "University of California San Diego",
-        "Link to dataset": "github.com/UCSD-AI4H/COVID-CT Kermany2018LabeledOC",
+        "Link to dataset": "github.com/UCSD-AI4H/COVID-CT",
         "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
         "[R] Are the low quality images rejected?": "n/a",
         "[D] Is the dataset balanced in terms of sex and age?": "N",
@@ -121,7 +121,7 @@
     },
     {
         "Institution": "University of California San Diego",
-        "Link to dataset": "data.mendeley.com/datasets/rscbjbr9sj/2 Chowdhury2020",
+        "Link to dataset": "data.mendeley.com/datasets/rscbjbr9sj/2",
         "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
         "[R] Are the low quality images rejected?": "Y",
         "[D] Is the dataset balanced in terms of sex and age?": "?",
@@ -133,7 +133,7 @@
     },
     {
         "Institution": "Elazig in Turkey",
-        "Link to dataset": "github.com/muhammedtalo/COVID-19 b21",
+        "Link to dataset": "github.com/muhammedtalo/COVID-19",
         "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N",
         "[R] Are the low quality images rejected?": "N",
         "[D] Is the dataset balanced in terms of sex and age?": "?",
@@ -157,7 +157,7 @@
     },
     {
         "Institution": "Hospital Universitario San Cecilio",
-        "Link to dataset": "github.com/ari-dasci/OD-covidgr b26",
+        "Link to dataset": "github.com/ari-dasci/OD-covidgr",
         "[D] Does the data and its associated information provide sufficient diagnostic quality?": "N?",
         "[R] Are the low quality images rejected?": "Y?",
         "[D] Is the dataset balanced in terms of sex and age?": "Y?",
