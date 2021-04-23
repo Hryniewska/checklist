@@ -716,7 +716,7 @@ If you find our work useful, can cite our paper using:
 
 ```
     @article{hryniewska2020review,
-          title={Do not repeat these mistakes - a critical appraisal of applications of explainable artificial intelligence for image based COVID-19 detection},
+          title={Checklist for responsible deep learning modeling of medical images based on COVID-19 detection studies},
           author={Weronika Hryniewska and Przemysław Bombiński and Patryk Szatkowski and Paulina Tomaszewska and Artur Przelaskowski and Przemysław Biecek},
           year={2020},
           journal={arXiv},

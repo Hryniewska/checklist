@@ -19,42 +19,42 @@
     },
     {
         "Institution": "Qatar & Bangladesh Universities",
-        "Link to dataset": "kaggle.com/tawsifurrahman/covid19-radiography-database Chowdhury2020",
+        "Link to dataset": "kaggle.com/tawsifurrahman/covid19-radiography-database",
         "Dynamic range of images": "8 bits, 21165 cases",
         "Data processing": "PNG, resized",
         "Prepared for scientific experiments": "X-ray database; No metadata; Categories: COVID-19 positive cases (3616),  normal (10,192), lung opacity (Non-COVID lung infection - 6,012), viral pneumonia (1,345)"
     },
     {
         "Institution": "University of Montreal",
-        "Link to dataset": "github.com/ieee8023/covid-chestxray-dataset cohen2020covidProspective",
+        "Link to dataset": "github.com/ieee8023/covid-chestxray-dataset",
         "Dynamic range of images": "8 bits, 951 cases",
         "Data processing": "JPG, PNG, resized",
         "Prepared for scientific experiments": "X-ray database; Metadata: covid severity scores, sex,age, finding, RT_PCR_positive, survival, intubated, intubation_present, went_icu, in_icu, needed_supplemental_O2, extubated, temperature, pO2_saturation, leukocyte_count, neutrophil_count, lymphocyte_count, clinical_notes, other_notes; Categories: covid, viral, bacterial, fungal, lipoid, aspiration, unknown"
     },
     {
         "Institution": "National Institutes  of Health",
-        "Link to dataset": "kaggle.com/c/rsna-pneumonia-detection-challenge Wang2017",
+        "Link to dataset": "kaggle.com/c/rsna-pneumonia-detection-challenge",
         "Dynamic range of images": "8 bits, 30227 (training)+3000 (test) cases",
         "Data processing": "DICOM, resized",
         "Prepared for scientific experiments": "X-ray database of Pneumonia Detection Challenge; No metadata; Categories: normal. lung opacity, no lung opacity/not normal"
     },
     {
         "Institution": "National Institutes of Health",
-        "Link to dataset": "nihcc.app.box.com/v/ChestXray-NIHCC Wang2017",
-        "Dynamic range of images": "8bits, 112120 cases",
+        "Link to dataset": "nihcc.app.box.com/v/ChestXray-NIHCC",
+        "Dynamic range of images": "8 bits, 112120 cases",
         "Data processing": "PNG, resized",
         "Prepared for scientific experiments": "X-ray database of Common Thorax Disease; Metadata: finding ROI; Categories: no findings and 14 disease categories (Atelectasis, Cardiomegaly, Effusion, Infiltration, Mass, Nodule, Pneumonia, Pneumothorax, Consolidation, Edema, Emphysema, Fibrosis, Pleural_Thickening, Hernia)"
     },
     {
         "Institution": "National Institutes of Health",
-        "Link to dataset": "kaggle.com/nih-chest-xrays/sample Wang2017",
+        "Link to dataset": "kaggle.com/nih-chest-xrays/sample",
         "Dynamic range of images": "8 bits, Random sample of 5606 from 112,120 images of 30,805 unique patients",
         "Data processing": "PNG, resized",
         "Prepared for scientific experiments": "X-ray database; Metadata: finding labels, follow-up, age, gender, view; Categories: Atelectasis, Cardiomegaly, Effusion, Infiltration, Mass, Nodule, Pneumonia, Pleural_Thickening, Hernia, Pneumothorax, Consolidation, Edema, Emphysema, Fibrosis"
     },
     {
         "Institution": "University of Montreal",
-        "Link to dataset": "kaggle.com/praveengovi/coronahack-chest-xraydataset cohen2020covidProspective",
+        "Link to dataset": "kaggle.com/praveengovi/coronahack-chest-xraydataset",
         "Dynamic range of images": "8 bits, 5910 cases (normal-1576, covid 58, SARS-4, virus-1493, bacteria 2777, ARDS-2)",
         "Data processing": "JPG,PNG-resized",
         "Prepared for scientific experiments": "Collection Chest X Ray (anterior-posterior) of Healthy vs Pneumonia (Corona) affected patients infected patients along with few other categories such as SARS (Severe Acute Respiratory Syndrome), Streptococcus & ARDS (Acute Respiratory Distress Syndrome); No metadata"
@@ -68,21 +68,21 @@
     },
     {
         "Institution": "University of California San Diego",
-        "Link to dataset": "github.com/UCSD-AI4H/COVID-CT Kermany2018LabeledOC",
+        "Link to dataset": "github.com/UCSD-AI4H/COVID-CT",
         "Dynamic range of images": "8 bits, 349 cases",
         "Data processing": "Images collected (scanned) from covid-related and medical papers in PNG (covid) or JPG (normal)",
         "Prepared for scientific experiments": "This dataset has 349 CT images containing clinical findings of COVID-19 from 216 patients; Categories: covid and noncovid cases; Metadata: age, gender, location, medical history (unfortunately modest), time after the onset of illness, severity, other diseases"
     },
     {
         "Institution": "University of California San Diego",
-        "Link to dataset": "data.mendeley.com/datasets/rscbjbr9sj/2 Chowdhury2020",
+        "Link to dataset": "data.mendeley.com/datasets/rscbjbr9sj/2",
         "Dynamic range of images": "8 bits, 5233 cases",
         "Data processing": "JPG (QF=95 for normal and QF=75 for pneumonia)",
         "Prepared for scientific experiments": "Collection Chest X Ray; Categories: normal (1349 cases) vs pneumonia (3884 cases) including subcategories of bacteria and virus; No metadata"
     },
     {
         "Institution": "Elazig in Turkey",
-        "Link to dataset": "github.com/muhammedtalo/COVID-19  b21",
+        "Link to dataset": "github.com/muhammedtalo/COVID-19",
         "Dynamic range of images": "8 bits, 1125 cases",
         "Data processing": "JPG (QF=90, subsampling2x2), PNG (resized)",
         "Prepared for scientific experiments": "X-Ray Images collection; No metadata; Categories: covid (125 cases), no findings (500 cases), pneumonia (500 cases)"
@@ -96,28 +96,28 @@
     },
     {
         "Institution": "Stanford University School of Medicine",
-        "Link to dataset": "stanfordmlgroup.github.io/competitions/chexpert Irvin_2019",
+        "Link to dataset": "stanfordmlgroup.github.io/competitions/chexpert",
         "Dynamic range of images": "8 bits, 224,316 chest radiographs of 65,240 patients",
         "Data processing": "JPG",
         "Prepared for scientific experiments": "Large dataset of chest X-rays which features uncertainty labels and radiologist-labeled reference standard evaluation sets; Categories: each report was labeled for the presence of 14 observations (no finding, enlarged cardiom., cardiomegaly, lesion, opacity, edema, consolidation, pneumonia, atelectasis, pneumothorax, pleural effusion, pleural other, fracture, support devices) as positive, negative, or uncertain; Metadata: related to above categories (blank for unmentioned, 0 for negative, -1 for uncertain, and 1 for positive)"
     },
     {
         "Institution": "Hospital San Juan de Alicante - University of Alicante",
-        "Link to dataset": "bimcv.cipf.es/bimcv-projects/padchest  BUSTOS2020101797",
+        "Link to dataset": "bimcv.cipf.es/bimcv-projects/padchest",
         "Dynamic range of images": "8 bits, more than 160,000 images from 67,000 patients",
         "Data processing": "PNG",
         "Prepared for scientific experiments": "PadChest: A large chest x-ray image dataset with multi-label annotated reports; the reports were labeled with 174 different radiographic findings, 19 differential diagnoses, and 104 anatomic locations; a 27% of the reports were manually annotated by trained physicians; Metadata: age, sex"
     },
     {
         "Institution": "Hospital Universitario San Cecilio",
-        "Link to dataset": "github.com/ari-dasci/OD-covidgr  b26",
+        "Link to dataset": "github.com/ari-dasci/OD-covidgr",
         "Dynamic range of images": "8 bits, 852 images",
         "Data processing": "JPEG (QF=90)",
         "Prepared for scientific experiments": "X-ray images: 426 positive covid cases and 426 negative cases; only the posterior-anterior view is considered; Categories: covid severity - normal-PCR+ (76), mild (100), moderate (171), severe (79); General metadata: positive images correspond to patients who have been tested positive with RT-PCR within a time span of at most 24h between the X-ray image and the test; every image has been taken using the same type of equipment and with the same format"
     },
     {
         "Institution": "Beth Israel Deaconess Medical Center in Boston",
-        "Link to dataset": "physionet.org/content/mimic-cxr/2.0.0 Johnson2019",
+        "Link to dataset": "physionet.org/content/mimic-cxr/2.0.0",
         "Dynamic range of images": "full bits, 227,835 imaging studies for 65,379 patients",
         "Data processing": "full DICOM",
         "Prepared for scientific experiments": "Chest radiographs with metadata: electronic health record data, dicom metadata, free-text radiology reports Categories: 14 pulmonary observations with an additional “uncertain” category"
@@ -131,7 +131,7 @@
     },
     {
         "Institution": "National Cancer Institute",
-        "Link to dataset": "wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI Armato2015",
+        "Link to dataset": "wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI",
         "Dynamic range of images": "full bits, 1308 cases",
         "Data processing": "full DICOM",
         "Prepared for scientific experiments": "The Lung Image Database consists of diagnostic and lung cancer screening thoracic CT scans with marked-up annotated lesions (XML); it includes three categories (\"nodule > or =3 mm,\" \"nodule <3 mm,\" and \"non-nodule > or =3 mm\");"
