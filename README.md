@@ -727,15 +727,17 @@ Preprint for this work is avaliable at
 If you find our work useful, can cite our paper using:
 
 ```
-    @article{hryniewska2020review,
-          title={Checklist for responsible deep learning modeling of medical images based on COVID-19 detection studies},
-          author={Weronika Hryniewska and Przemysław Bombiński and Patryk Szatkowski and Paulina Tomaszewska and Artur Przelaskowski and Przemysław Biecek},
-          year={2020},
-          journal={arXiv},
-          eprint={2012.08333},
-          archivePrefix={arXiv},
-          primaryClass={eess.IV},
-          URL={https://arxiv.org/abs/2012.08333}
+    @article{Hryniewska2021review,
+          title = {Checklist for responsible deep learning modeling of medical images based on COVID-19 detection studies},
+          journal = {Pattern Recognition},
+          volume = {118},
+          pages = {108035},
+          year = {2021},
+          issn = {0031-3203},
+          doi = {https://doi.org/10.1016/j.patcog.2021.108035},
+          url = {https://www.sciencedirect.com/science/article/pii/S0031320321002223},
+          author = {Weronika Hryniewska and Przemysław Bombiński and Patryk Szatkowski and Paulina Tomaszewska and Artur Przelaskowski and Przemysław Biecek},
+          keywords = {COVID-19, Lungs, Computed tomography, X-ray, Explainable AI, Deep learning},
     }
 ```
 
