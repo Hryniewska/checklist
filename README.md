@@ -720,11 +720,12 @@ n/a - issue does not apply to a particular publication / data resource<br/>
 </table>
 <!--END_SECTION:data-section-->
 
+## Reference
 
-Preprint for this work is avaliable at
-<https://arxiv.org/abs/2012.08333> .
+Paper for this work is avaliable at:
+<https://www.sciencedirect.com/science/article/pii/S0031320321002223>.
 
-If you find our work useful, can cite our paper using:
+If you find our work useful, please cite our paper:
 
 ```
     @article{Hryniewska2021review,
